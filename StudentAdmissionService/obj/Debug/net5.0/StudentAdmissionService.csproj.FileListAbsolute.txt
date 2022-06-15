@@ -147,4 +147,3 @@ F:\ContentDevelopment\IIHT\MicroServices\Demo\StudentAdmissionService\StudentAdm
 F:\ContentDevelopment\IIHT\MicroServices\Demo\StudentAdmissionService\StudentAdmissionService\obj\Debug\net5.0\Razor\Views\StudentAdmissionModels\Index.cshtml.g.cs
 F:\ContentDevelopment\IIHT\MicroServices\Demo\StudentAdmissionService\StudentAdmissionService\obj\Debug\net5.0\StudentAdmissionService.RazorTargetAssemblyInfo.cs
 F:\ContentDevelopment\IIHT\MicroServices\Demo\StudentAdmissionService\StudentAdmissionService\obj\Debug\net5.0\StudentAdmissionService.Views.pdb
-F:\ContentDevelopment\IIHT\MicroServices\Demo\StudentAdmissionService\StudentAdmissionService\obj\Debug\net5.0\StudentAdmissionService.csproj.AssemblyReference.cache

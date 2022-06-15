@@ -36,7 +36,7 @@ namespace StudentAdmissionService
             });
 
             services.AddDbContext<StudentAdmissionServiceContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("StudentAdmissionServiceContext")));
+                    options.UseSqlServer(Configuration.GetConnectionString("schoolconnect")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
