@@ -61,8 +61,4 @@ RUN dotnet publish -c release -o /app
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build /app .
-<<<<<<< HEAD
 ENTRYPOINT ["dotnet", "StudentAdmissionService.dll"]
-=======
-ENTRYPOINT ["dotnet", "StudentAdmissionService.dll"]
->>>>>>> 5702ef2fbbad78708bb154414ce6af4d62192437
