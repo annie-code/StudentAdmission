@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "azureaks-23c6"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "azureaks-23c6"
+  template:
+    metadata:
+      labels:
+        app: "azureaks-23c6"
+    spec:
+      containers:
+        - name: "azureaks-23c6"
+          image: "azuredemocontainer.azurecr.io/azureaks"
+          ports:
+          - containerPort: 80
